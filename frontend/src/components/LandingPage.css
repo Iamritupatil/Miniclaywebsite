@@ -132,21 +132,24 @@ body {
   line-height: 1;
   letter-spacing: -0.02em;
   margin: 0 0 32px;
-  background: var(--gradient-orange);
+  background: linear-gradient(135deg, #FF4D00 0%, #FF8A00 50%, #FFA500 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  filter: drop-shadow(0 0 40px rgba(255, 107, 53, 0.3));
+  filter: drop-shadow(0 0 40px rgba(255, 107, 53, 0.4));
   position: relative;
   animation: glowPulse 3s ease-in-out infinite;
+  background-size: 200% auto;
 }
 
 @keyframes glowPulse {
   0%, 100% { 
-    filter: drop-shadow(0 0 40px rgba(255, 107, 53, 0.3));
+    filter: drop-shadow(0 0 40px rgba(255, 107, 53, 0.4));
+    background-position: 0% center;
   }
   50% { 
-    filter: drop-shadow(0 0 60px rgba(255, 107, 53, 0.5));
+    filter: drop-shadow(0 0 60px rgba(255, 107, 53, 0.6));
+    background-position: 100% center;
   }
 }
 
