@@ -139,38 +139,64 @@ body {
   overflow: hidden;
 }
 
-/* Animated atmospheric glow orb */
+/* Subtle animated glow - reduced intensity */
 .hero-glow-orb {
   position: absolute;
   top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 700px;
-  height: 350px;
+  width: 500px;
+  height: 250px;
   background: radial-gradient(ellipse at center, 
-    rgba(255, 107, 53, 0.2) 0%,
-    rgba(255, 138, 80, 0.12) 25%,
-    rgba(220, 220, 220, 0.06) 50%,
+    rgba(255, 107, 53, 0.12) 0%,
+    rgba(255, 138, 80, 0.06) 30%,
+    rgba(220, 220, 220, 0.03) 60%,
     transparent 100%);
-  filter: blur(80px);
-  opacity: 0.8;
+  filter: blur(70px);
+  opacity: 0.6;
   z-index: 0;
   pointer-events: none;
-  animation: breathingGlow 7s ease-in-out infinite alternate;
+  animation: breathingGlow 8s ease-in-out infinite alternate;
+}
+
+/* Branded accent shape - subtle identity element */
+.hero-accent-shape {
+  position: absolute;
+  top: 20%;
+  right: 15%;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 107, 53, 0.15);
+  opacity: 0.4;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.hero-accent-shape::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 107, 53, 0.1);
 }
 
 @keyframes breathingGlow {
   0% {
     transform: translate(-50%, -50%) scale(1);
-    opacity: 0.7;
+    opacity: 0.5;
   }
   50% {
-    transform: translate(-48%, -52%) scale(1.15);
-    opacity: 0.9;
+    transform: translate(-48%, -52%) scale(1.08);
+    opacity: 0.65;
   }
   100% {
-    transform: translate(-52%, -48%) scale(0.95);
-    opacity: 0.75;
+    transform: translate(-52%, -48%) scale(0.96);
+    opacity: 0.55;
   }
 }
 
@@ -181,32 +207,52 @@ body {
 
 .hero-badge {
   display: inline-block;
-  background: rgba(255, 107, 53, 0.1);
-  border: 1px solid rgba(255, 107, 53, 0.2);
+  background: rgba(255, 107, 53, 0.08);
+  border: 1px solid rgba(255, 107, 53, 0.15);
   color: var(--primary-orange);
-  padding: 8px 16px;
+  padding: 6px 14px;
   border-radius: 50px;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 600;
-  letter-spacing: 0.5px;
-  margin-bottom: 24px;
-  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  margin-bottom: 28px;
 }
 
 .hero-title {
   font-size: clamp(40px, 6vw, 64px);
   font-weight: 800;
   line-height: 1.15;
-  margin-bottom: 24px;
+  margin-bottom: 16px;
   letter-spacing: -0.02em;
   color: var(--text-primary);
   position: relative;
   z-index: 2;
 }
 
-/* Remove old glow effect from title */
-.hero-title::before {
-  display: none;
+.hero-subtitle {
+  font-size: clamp(28px, 5vw, 52px);
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 28px;
+  color: var(--text-secondary);
+  letter-spacing: -0.015em;
+}
+
+/* Founder quote - personal touch */
+.founder-quote {
+  max-width: 600px;
+  margin: 0 auto 40px;
+  padding: 20px 28px;
+  background: rgba(255, 255, 255, 0.02);
+  border-left: 3px solid var(--primary-orange);
+  border-radius: 6px;
+}
+
+.founder-quote p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--text-secondary);
+  font-style: italic;
 }
 
 /* Bright Metallic Logo Style - Enhanced Visibility */
