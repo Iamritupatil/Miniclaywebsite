@@ -43,6 +43,9 @@ const LandingPage = () => {
       <section className="hero-section">
         <div className="container">
           <div className="hero-content">
+            {/* Animated background glow */}
+            <div className="hero-glow-orb"></div>
+            
             <div className="hero-badge">
               Autonomous AI Meeting Teammate
             </div>
