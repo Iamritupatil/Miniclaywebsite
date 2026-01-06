@@ -158,6 +158,48 @@ body {
   margin-bottom: 24px;
   letter-spacing: -0.02em;
   color: var(--text-primary);
+  position: relative;
+  z-index: 2;
+}
+
+/* Animated atmospheric glow behind heading */
+.hero-title::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  height: 300px;
+  background: radial-gradient(ellipse at center, 
+    rgba(255, 107, 53, 0.15) 0%,
+    rgba(255, 138, 80, 0.08) 30%,
+    rgba(200, 200, 200, 0.04) 60%,
+    transparent 100%);
+  filter: blur(60px);
+  opacity: 0.7;
+  z-index: -1;
+  animation: glowFloat 8s ease-in-out infinite;
+  pointer-events: none;
+}
+
+@keyframes glowFloat {
+  0%, 100% {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0.7;
+  }
+  25% {
+    transform: translate(-48%, -52%) scale(1.05);
+    opacity: 0.8;
+  }
+  50% {
+    transform: translate(-52%, -48%) scale(0.98);
+    opacity: 0.6;
+  }
+  75% {
+    transform: translate(-49%, -51%) scale(1.03);
+    opacity: 0.75;
+  }
 }
 
 /* Bright Metallic Logo Style - Enhanced Visibility */
