@@ -17,7 +17,7 @@ const LandingPage = () => {
           <div className="hero-content">
             <div className="hero-badge">
               <span className="badge-dot"></span>
-              <span>EST. 2026</span>
+              <span>AI-Powered Meeting Intelligence</span>
             </div>
             
             <h1 className="hero-title metallic-text">
