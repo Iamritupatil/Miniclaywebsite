@@ -54,15 +54,11 @@ const LandingPage = () => {
             </div>
             
             <h1 className="hero-title">
-              <span className="metallic-title">An AI Teammate That Joins</span> <span className="gradient-text">Your Meetings</span>
+              <span className="metallic-title">Your AI Teammate</span> <span className="gradient-text">for Meetings</span>
             </h1>
             
-            <h2 className="hero-subtitle">
-              And Helps You Handle Conversations
-            </h2>
-            
             <p className="hero-description">
-              Built for freelancers and solo founders who don't always have someone else in the room. Miniclay AI listens, participates when needed, and takes some pressure off your workload.
+              Built for freelancers and solo founders. Miniclay AI joins your meetings, helps with conversations, and takes some pressure off your work.
             </p>
             
             <div className="founder-quote">
