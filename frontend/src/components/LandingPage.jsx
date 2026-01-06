@@ -15,12 +15,17 @@ const LandingPage = () => {
       <section className="hero-section">
         <div className="container">
           <div className="hero-content">
+            {/* Logo */}
+            <div className="hero-logo">
+              <img src="/logo.png" alt="Miniclay AI Logo" className="logo-image" />
+            </div>
+            
             <div className="hero-badge">
               <span className="badge-dot"></span>
               <span>AI-Powered Meeting Intelligence</span>
             </div>
             
-            <h1 className="hero-title metallic-text">
+            <h1 className="hero-title orange-gradient-text">
               MINICLAY AI
             </h1>
             
