@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 export default function LoginPage() {
+  const navigate = useNavigate();
   const [isRegister, setIsRegister] = useState(false);
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
@@ -35,6 +37,10 @@ export default function LoginPage() {
   };
 
   const closeModal = () => setActiveModal(null);
+  
+  const handleClose = () => {
+    navigate('/');
+  };
 
   // BSOD Component
   if (activeModal === 'bsod') {
@@ -408,7 +414,7 @@ export default function LoginPage() {
             <div className="win98-controls">
               <div className="win98-button" aria-label="Minimize">_</div>
               <div className="win98-button" aria-label="Maximize">□</div>
-              <div className="win98-button close" aria-label="Close">×</div>
+              <div className="win98-button close" aria-label="Close" onClick={handleClose}>×</div>
             </div>
           </div>
 
