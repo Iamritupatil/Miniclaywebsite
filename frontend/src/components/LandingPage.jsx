@@ -1,5 +1,6 @@
 import React from 'react';
 import { Mic, Brain, Sparkles, Users, ArrowRight, Twitter, Linkedin, Github, Mail } from 'lucide-react';
+import './LandingPage.css';
 
 const LandingPage = () => {
   return (
