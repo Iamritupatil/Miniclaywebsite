@@ -48,7 +48,7 @@ const LandingPage = () => {
             </div>
             
             <h1 className="hero-title">
-              Transform Your Meetings with <span className="gradient-text">Autonomous AI</span>
+              <span className="metallic-title">Transform Your Meetings with</span> <span className="gradient-text">Autonomous AI</span>
             </h1>
             
             <p className="hero-description">
