@@ -26,7 +26,7 @@ const LandingPage = () => {
               <a href="#how-it-works" className="nav-link">How It Works</a>
               <a href="#testimonials" className="nav-link">Testimonials</a>
               <a href="#faq" className="nav-link">FAQ</a>
-              <a href="#" className="btn-nav">Get Started</a>
+              <a href="/login" className="btn-nav">Get Started</a>
             </nav>
 
             <button 
