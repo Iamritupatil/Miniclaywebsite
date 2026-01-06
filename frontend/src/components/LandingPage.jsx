@@ -44,7 +44,7 @@ const LandingPage = () => {
         <div className="container">
           <div className="hero-content">
             <div className="hero-badge">
-              AI-Powered Meeting Intelligence
+              Autonomous AI Meeting Teammate
             </div>
             
             <h1 className="hero-title">
@@ -52,7 +52,7 @@ const LandingPage = () => {
             </h1>
             
             <p className="hero-description">
-              Miniclay AI joins your meetings, transcribes in real-time, and responds intelligently like a human participant. Boost productivity and never miss important details again.
+              Miniclay AI — Your Autonomous AI Meeting Teammate for Freelancers & Solo Founders. Miniclay AI doesn't just listen — it participates in conversations, helps handle meetings, and supports independent creators like a real teammate.
             </p>
             
             <div className="hero-cta-group">
@@ -68,16 +68,16 @@ const LandingPage = () => {
 
             <div className="hero-stats">
               <div className="stat-item">
-                <div className="stat-number">10K+</div>
-                <div className="stat-label">Active Users</div>
+                <div className="stat-number">5K+</div>
+                <div className="stat-label">Solo Founders</div>
               </div>
               <div className="stat-item">
-                <div className="stat-number">99%</div>
-                <div className="stat-label">Accuracy</div>
+                <div className="stat-number">AI-First</div>
+                <div className="stat-label">Participation</div>
               </div>
               <div className="stat-item">
-                <div className="stat-number">50+</div>
-                <div className="stat-label">Languages</div>
+                <div className="stat-number">24/7</div>
+                <div className="stat-label">Available</div>
               </div>
             </div>
           </div>
@@ -102,8 +102,8 @@ const LandingPage = () => {
       <section className="features-section" id="features">
         <div className="container">
           <div className="section-header">
-            <h2 className="section-title">Powerful Features for Smart Collaboration</h2>
-            <p className="section-subtitle">Everything you need for productive meetings in one intelligent platform</p>
+            <h2 className="section-title">Your AI Teammate, Built for Independence</h2>
+            <p className="section-subtitle">Perfect for freelancers, indie makers, and solo founders who need meeting support</p>
           </div>
 
           <div className="features-grid">
@@ -111,14 +111,14 @@ const LandingPage = () => {
               <div className="feature-icon">
                 <Mic size={24} />
               </div>
-              <h3 className="feature-title">Real-time Transcription</h3>
+              <h3 className="feature-title">Active Participation</h3>
               <p className="feature-description">
-                Crystal-clear transcription with 99% accuracy across 50+ languages and dialects.
+                Joins meetings as your teammate and actively participates in discussions with context-aware responses.
               </p>
               <ul className="feature-list">
-                <li><Check size={16} /> Multi-language support</li>
-                <li><Check size={16} /> Speaker identification</li>
-                <li><Check size={16} /> Instant searchable notes</li>
+                <li><Check size={16} /> Answers questions on your behalf</li>
+                <li><Check size={16} /> Provides relevant input</li>
+                <li><Check size={16} /> Natural conversation flow</li>
               </ul>
             </div>
 
@@ -126,14 +126,14 @@ const LandingPage = () => {
               <div className="feature-icon">
                 <Brain size={24} />
               </div>
-              <h3 className="feature-title">AI-Powered Insights</h3>
+              <h3 className="feature-title">Context Understanding</h3>
               <p className="feature-description">
-                Automatically extracts action items, decisions, and key discussion points.
+                Understands your business, projects, and goals to represent you accurately in every meeting.
               </p>
               <ul className="feature-list">
-                <li><Check size={16} /> Smart summaries</li>
-                <li><Check size={16} /> Action item tracking</li>
-                <li><Check size={16} /> Meeting analytics</li>
+                <li><Check size={16} /> Learns your style</li>
+                <li><Check size={16} /> Remembers past conversations</li>
+                <li><Check size={16} /> Adapts to each client</li>
               </ul>
             </div>
 
@@ -141,14 +141,14 @@ const LandingPage = () => {
               <div className="feature-icon">
                 <MessageSquare size={24} />
               </div>
-              <h3 className="feature-title">Natural Conversation</h3>
+              <h3 className="feature-title">Real Teammate Experience</h3>
               <p className="feature-description">
-                Responds to questions naturally with context-aware, human-like dialogue.
+                Communicates naturally and professionally, representing you as a real member of your team.
               </p>
               <ul className="feature-list">
-                <li><Check size={16} /> Context understanding</li>
-                <li><Check size={16} /> Natural voice synthesis</li>
-                <li><Check size={16} /> Emotional intelligence</li>
+                <li><Check size={16} /> Professional voice & tone</li>
+                <li><Check size={16} /> Human-like engagement</li>
+                <li><Check size={16} /> Client-ready presence</li>
               </ul>
             </div>
 
@@ -156,14 +156,14 @@ const LandingPage = () => {
               <div className="feature-icon">
                 <Users size={24} />
               </div>
-              <h3 className="feature-title">Team Collaboration</h3>
+              <h3 className="feature-title">Always Available</h3>
               <p className="feature-description">
-                Seamless integration with your existing tools and team workflows.
+                Never miss a meeting or client call. Miniclay AI is available 24/7 to represent you.
               </p>
               <ul className="feature-list">
-                <li><Check size={16} /> Calendar integration</li>
-                <li><Check size={16} /> Slack & Teams sync</li>
-                <li><Check size={16} /> Shared workspaces</li>
+                <li><Check size={16} /> Handle multiple meetings</li>
+                <li><Check size={16} /> Timezone flexibility</li>
+                <li><Check size={16} /> Scale your presence</li>
               </ul>
             </div>
           </div>
@@ -174,27 +174,27 @@ const LandingPage = () => {
       <section className="how-section" id="how-it-works">
         <div className="container">
           <div className="section-header">
-            <h2 className="section-title">How Miniclay AI Works</h2>
-            <p className="section-subtitle">Get started in three simple steps</p>
+            <h2 className="section-title">How Your AI Teammate Works</h2>
+            <p className="section-subtitle">Get your autonomous meeting partner in three simple steps</p>
           </div>
 
           <div className="how-grid">
             <div className="how-item">
               <div className="how-number">01</div>
-              <h3 className="how-title">Connect Your Calendar</h3>
-              <p className="how-description">Sync with Google Calendar, Outlook, or your preferred platform in seconds.</p>
+              <h3 className="how-title">Set Your Context</h3>
+              <p className="how-description">Tell Miniclay AI about your business, projects, and how you want to be represented in meetings.</p>
             </div>
 
             <div className="how-item">
               <div className="how-number">02</div>
-              <h3 className="how-title">AI Joins Automatically</h3>
-              <p className="how-description">Miniclay AI joins your scheduled meetings and listens attentively throughout.</p>
+              <h3 className="how-title">Connect & Schedule</h3>
+              <p className="how-description">Sync your calendar and Miniclay AI joins as your autonomous teammate, ready to participate.</p>
             </div>
 
             <div className="how-item">
               <div className="how-number">03</div>
-              <h3 className="how-title">Receive Smart Summaries</h3>
-              <p className="how-description">Get instant transcripts, action items, and insights delivered to your inbox.</p>
+              <h3 className="how-title">Let AI Represent You</h3>
+              <p className="how-description">Miniclay AI participates in meetings, answers questions, and handles discussions professionally.</p>
             </div>
           </div>
         </div>
@@ -204,21 +204,21 @@ const LandingPage = () => {
       <section className="testimonials-section" id="testimonials">
         <div className="container">
           <div className="section-header">
-            <h2 className="section-title">Loved by Teams Worldwide</h2>
-            <p className="section-subtitle">See what our customers have to say</p>
+            <h2 className="section-title">Trusted by Solo Founders Worldwide</h2>
+            <p className="section-subtitle">See how freelancers and indie makers use Miniclay AI</p>
           </div>
 
           <div className="testimonials-grid">
             <div className="testimonial-card">
               <div className="testimonial-rating">★★★★★</div>
               <p className="testimonial-text">
-                "Miniclay AI has transformed how our team conducts meetings. The transcription accuracy is incredible, and the AI summaries save us hours every week."
+                "As a solo founder, I can't be in every meeting. Miniclay AI represents me professionally and handles client calls when I'm focused on building. It's like having a co-founder."
               </p>
               <div className="testimonial-author">
                 <div className="author-avatar">SJ</div>
                 <div>
                   <div className="author-name">Sarah Johnson</div>
-                  <div className="author-role">Product Manager, TechCorp</div>
+                  <div className="author-role">Solo Founder, SaaS Product</div>
                 </div>
               </div>
             </div>
@@ -226,13 +226,13 @@ const LandingPage = () => {
             <div className="testimonial-card">
               <div className="testimonial-rating">★★★★★</div>
               <p className="testimonial-text">
-                "The AI's ability to understand context and provide meaningful insights is remarkable. It's like having an extra team member who never misses a detail."
+                "I'm a freelance developer juggling multiple clients. Miniclay AI handles standup meetings and client check-ins while I code. It understands my projects and communicates on my behalf."
               </p>
               <div className="testimonial-author">
                 <div className="author-avatar">MK</div>
                 <div>
                   <div className="author-name">Michael Kim</div>
-                  <div className="author-role">Founder, StartupXYZ</div>
+                  <div className="author-role">Freelance Developer</div>
                 </div>
               </div>
             </div>
@@ -240,13 +240,13 @@ const LandingPage = () => {
             <div className="testimonial-card">
               <div className="testimonial-rating">★★★★★</div>
               <p className="testimonial-text">
-                "Our meeting productivity increased by 40%. Action items are tracked automatically, and follow-ups happen seamlessly. Highly recommended!"
+                "As an indie maker shipping products fast, I need to focus on building. Miniclay AI attends partnership calls and user interviews for me. It's the teammate I always needed."
               </p>
               <div className="testimonial-author">
                 <div className="author-avatar">EP</div>
                 <div>
                   <div className="author-name">Emily Park</div>
-                  <div className="author-role">Engineering Lead, DevShop</div>
+                  <div className="author-role">Indie Maker</div>
                 </div>
               </div>
             </div>
@@ -258,9 +258,9 @@ const LandingPage = () => {
       <section className="cta-section">
         <div className="container">
           <div className="cta-content">
-            <h2 className="cta-title">Ready to Transform Your Meetings?</h2>
+            <h2 className="cta-title">Ready for Your AI Teammate?</h2>
             <p className="cta-description">
-              Join thousands of teams using Miniclay AI to boost productivity and collaboration.
+              Join thousands of freelancers and solo founders using Miniclay AI to scale their presence and focus on what matters.
             </p>
             <div className="cta-buttons">
               <a href="#" className="btn-primary btn-large">
@@ -271,7 +271,7 @@ const LandingPage = () => {
                 Schedule Demo
               </a>
             </div>
-            <p className="cta-note">No credit card required • 14-day free trial</p>
+            <p className="cta-note">No credit card required • Perfect for independent creators</p>
           </div>
         </div>
       </section>
@@ -286,48 +286,48 @@ const LandingPage = () => {
           <div className="faq-list">
             <div className={`faq-item ${openFaq === 0 ? 'active' : ''}`}>
               <button className="faq-question" onClick={() => toggleFaq(0)}>
-                <span>How does Miniclay AI join my meetings?</span>
+                <span>Is Miniclay AI just a transcription bot?</span>
                 <ChevronDown className={`faq-icon ${openFaq === 0 ? 'rotated' : ''}`} size={20} />
               </button>
               {openFaq === 0 && (
                 <div className="faq-answer">
-                  <p>Miniclay AI integrates with your calendar and automatically joins meetings via a secure connection to Zoom, Teams, Google Meet, and other platforms. You maintain full control over when it joins.</p>
+                  <p>No! Miniclay AI is not a transcription tool. It's an autonomous AI teammate that actively participates in your meetings, answers questions, and represents you professionally. It engages in conversations like a real team member.</p>
                 </div>
               )}
             </div>
 
             <div className={`faq-item ${openFaq === 1 ? 'active' : ''}`}>
               <button className="faq-question" onClick={() => toggleFaq(1)}>
-                <span>Is my conversation data secure and private?</span>
+                <span>How does Miniclay AI know what to say in meetings?</span>
                 <ChevronDown className={`faq-icon ${openFaq === 1 ? 'rotated' : ''}`} size={20} />
               </button>
               {openFaq === 1 && (
                 <div className="faq-answer">
-                  <p>Absolutely. All data is encrypted end-to-end with enterprise-grade security. We're SOC 2 Type II and GDPR compliant. You have full control over data retention and deletion.</p>
+                  <p>You provide context about your business, projects, and communication style. Miniclay AI learns from this and adapts to each meeting's context, ensuring it represents you accurately and professionally.</p>
                 </div>
               )}
             </div>
 
             <div className={`faq-item ${openFaq === 2 ? 'active' : ''}`}>
               <button className="faq-question" onClick={() => toggleFaq(2)}>
-                <span>Which platforms does Miniclay AI support?</span>
+                <span>Can clients tell it's an AI?</span>
                 <ChevronDown className={`faq-icon ${openFaq === 2 ? 'rotated' : ''}`} size={20} />
               </button>
               {openFaq === 2 && (
                 <div className="faq-answer">
-                  <p>Miniclay AI works with Zoom, Microsoft Teams, Google Meet, Slack Huddles, Webex, and more. We're constantly adding support for new platforms based on user feedback.</p>
+                  <p>Miniclay AI communicates naturally with professional voice synthesis and human-like engagement. You can choose to introduce it as your AI teammate or let it participate seamlessly. Many users find it indistinguishable from a human assistant.</p>
                 </div>
               )}
             </div>
 
             <div className={`faq-item ${openFaq === 3 ? 'active' : ''}`}>
               <button className="faq-question" onClick={() => toggleFaq(3)}>
-                <span>Can I customize AI responses and behavior?</span>
+                <span>What platforms does Miniclay AI work with?</span>
                 <ChevronDown className={`faq-icon ${openFaq === 3 ? 'rotated' : ''}`} size={20} />
               </button>
               {openFaq === 3 && (
                 <div className="faq-answer">
-                  <p>Yes! Customize response tone, expertise level, participation frequency, and more. The AI learns from your preferences and adapts to your team's communication style over time.</p>
+                  <p>Miniclay AI works with Zoom, Google Meet, Microsoft Teams, and other major video conferencing platforms. It integrates with your calendar and joins meetings automatically as scheduled.</p>
                 </div>
               )}
             </div>
