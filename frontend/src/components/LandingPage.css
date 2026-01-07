@@ -79,6 +79,7 @@ body {
   width: 36px;
   height: 36px;
   object-fit: contain;
+  border-radius: 8px;
 }
 
 .logo-text {
@@ -178,28 +179,11 @@ body {
 
 /* Branded accent shape - subtle identity element */
 .hero-accent-shape {
-  position: absolute;
-  top: 20%;
-  right: 15%;
-  width: 180px;
-  height: 180px;
-  border-radius: 50%;
-  border: 2px solid rgba(255, 107, 53, 0.15);
-  opacity: 0.4;
-  z-index: 0;
-  pointer-events: none;
+  display: none;
 }
 
 .hero-accent-shape::before {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  border: 2px solid rgba(255, 107, 53, 0.1);
+  display: none;
 }
 
 @keyframes breathingGlow {
@@ -868,6 +852,7 @@ body {
   width: 32px;
   height: 32px;
   object-fit: contain;
+  border-radius: 6px;
 }
 
 .footer-brand {

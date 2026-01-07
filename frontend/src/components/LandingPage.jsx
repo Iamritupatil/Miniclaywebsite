@@ -77,11 +77,11 @@ const LandingPage = () => {
 
             <div className="hero-stats">
               <div className="stat-item">
-                <div className="stat-number">2K+</div>
-                <div className="stat-label">Solo founders using it</div>
+                <div className="stat-number">Early Users</div>
+                <div className="stat-label">Join for free</div>
               </div>
               <div className="stat-item">
-                <div className="stat-number">Built in 2024</div>
+                <div className="stat-number">Built in 2025</div>
                 <div className="stat-label">By a solo founder</div>
               </div>
             </div>
